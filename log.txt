@@ -1,0 +1,10 @@
+[2026-11-20 12:23:42] Estructura de carpetas creada
+[2026-11-20 12:23:42] Archivo movido: prueba.txt -> data\txt\prueba.txt
+[2026-11-20 12:48:44] Estructura de carpetas creada
+[2026-11-20 12:48:44] Datos guardados en registros.txt
+[2026-11-20 12:48:44] Datos guardados en registros.csv
+[2026-11-20 12:48:44] Datos exportados a registros.json
+[2026-11-20 12:48:44] Archivo movido: registros.csv -> data\csv\registros.csv
+[2026-11-20 12:48:44] Archivo movido: registros.json -> data\json\registros.json
+[2026-11-20 12:48:44] Archivo movido: registros.txt -> data\txt\registros.txt
+[2026-11-20 12:48:44] Datos importados desde data\json\registros.json
