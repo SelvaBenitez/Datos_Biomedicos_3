@@ -8,3 +8,30 @@
 [2026-11-20 12:48:44] Archivo movido: registros.json -> data\json\registros.json
 [2026-11-20 12:48:44] Archivo movido: registros.txt -> data\txt\registros.txt
 [2026-11-20 12:48:44] Datos importados desde data\json\registros.json
+[2026-11-20 13:24:27] Error al conectar a MongoDB
+[2026-11-20 13:30:49] Error al conectar a MongoDB
+[2026-11-20 13:35:26] Error al conectar a MongoDB
+[2026-11-20 13:46:06] Conexión exitosa a MongoDB
+[2026-11-20 13:46:06] Datos importados desde data\json\registros.json
+[2026-11-20 13:46:07] Se insertaron 50 registros en MongoDB
+[2026-11-20 13:46:07] Resultados exportados a resultados_mongo.json
+[2026-11-20 13:46:07] Archivo movido: resultados_mongo.json -> data\json\resultados_mongo.json
+[2026-11-20 14:50:48] Estructura de carpetas creada
+[2026-11-20 14:50:54] Se generaron registros aleatorios
+[2026-11-20 14:53:12] Registro ingresado manualmente: ID-051
+[2026-11-20 14:53:19] Se validaron los registros
+[2026-11-20 14:53:28] Datos guardados en registros.txt
+[2026-11-20 14:53:28] Datos guardados en registros.csv
+[2026-11-20 14:53:28] Datos exportados a registros.json
+[2026-11-20 14:53:28] Archivo movido: registros.csv -> data\csv\registros.csv
+[2026-11-20 14:53:28] Archivo movido: registros.json -> data\json\registros.json
+[2026-11-20 14:53:28] Archivo movido: registros.txt -> data\txt\registros.txt
+[2026-11-20 14:53:37] Datos importados desde data\json\registros.json
+[2026-11-20 14:53:47] Conexión exitosa a MongoDB
+[2026-11-20 14:53:48] Se insertaron 51 registros en MongoDB
+[2026-11-20 14:53:48] Resultados exportados a resultados_mongo.json
+[2026-11-20 14:53:48] Archivo movido: resultados_mongo.json -> data\json\resultados_mongo.json
+[2026-11-20 14:54:48] Conexión exitosa a MongoDB
+[2026-11-20 14:57:20] Conexión exitosa a MongoDB
+[2026-11-20 14:57:28] Consulta en MongoDB por ID: ID-003
+[2026-11-20 14:59:00] Programa finalizado
