@@ -31,11 +31,15 @@ while True:
         registrar_log("Se generaron registros aleatorios")
 
     elif opcion == "2":
+        id_paciente = input("ID (ejemplo ID-051): ").upper()
+        edad = input("Edad: ")
+        frecuencia = input("Frecuencia cardiaca (ejemplo 90): ")
+        saturacion = input("SpO2 (ejemplo 95): ")
         nuevo_registro = {
-            "id": input("ID (ejemplo ID-051): "),
-            "fr": input("Edad (ejemplo 18 Años): "),
-            "fc": input("Frecuencia cardiaca (ejemplo 090ppm): "),
-            "spo2": input("SpO2 (ejemplo 95%): ")
+            "id": id_paciente,
+            "fr": edad + " Años",
+            "fc": frecuencia.zfill(3) + "ppm",
+            "spo2": saturacion + "%"
         }
         if validar_registro(nuevo_registro):
             lista_registros.append(nuevo_registro)
@@ -43,7 +47,7 @@ while True:
             print("Registro agregado correctamente")
             registrar_log(f"Registro ingresado manualmente: {nuevo_registro['id']}")
         else:
-            print("El registro NO se agregó porque tiene errores")
+            print("No se pudo registrar el usuario. Por favor, verificar la digitación de la información.")
 
     elif opcion == "3":
         registros_validos = filtrar_validos(lista_registros)
